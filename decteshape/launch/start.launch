@@ -1,0 +1,5 @@
+<launch>
+  <!-- turtlebot_teleop_key already has its own built in velocity smoother -->
+  <node pkg="decteshape" type="aruco.py" name="image_converter"  output="screen">
+  </node>
+</launch>	
